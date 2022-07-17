@@ -7,13 +7,6 @@ class Solution {
   public:
     // Function to detect cycle in an undirected graph.
     // Using BFS
-
-    // Some issue, shows wrong answer for
-    // 3 2
-    // 0 1
-    // 1 2
-    // 3 nodes and 2 connections in example
-    
     bool cyclePresentBFS(int node, vector<bool> &visited, vector<int> adj[])
     {
         queue<pair<int,int>> q;
